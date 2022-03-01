@@ -1,0 +1,141 @@
+/* navbar */
+.nav-container {
+	font-family: 'Dosis', sans-serif;
+	padding: 20px 60px;
+}
+
+#search-box {
+	width: 627px;
+	box-shadow: 0 4px 13px 3px #0000000f;
+	height: 53px;
+	border: none;
+	border-radius: 8px;
+	color: #939393;
+	font-size: 18px;
+	padding-left: 70px;
+}
+
+#search-box:focus {
+	outline: none;
+}
+
+#search-icon {
+	position: relative;
+	left: 45px;
+	width: 21px;
+}
+
+#search-divider {
+	font-size: 32px;
+	margin-bottom: 0;
+	position: relative;
+	right: 160px;
+	color: #d1d1d1;
+	font-weight: 200;
+}
+
+#search-dropdown {
+	position: relative;
+	right: 133px;
+}
+
+::placeholder {
+	color: #939393;
+}
+
+.nav-search-type {
+	font-size: 18px;
+	color: #939393;
+}
+
+.nav-title {
+	grid-column: 2;
+	font-weight: 700;
+	font-size: 29px;
+}
+
+.nav-search {
+	grid-column: 3 / span 6;
+}
+
+.nav-links {
+	width: 324px;
+	margin-left: 95px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-links a {
+	font-weight: 500;
+	font-size: 18px;
+	color: #222;
+}
+
+/* homepage */
+.image-grid {
+	width: 91%;
+ 	column-count: 5;
+    column-gap: 15px;
+    margin: 0 auto 0;
+}
+
+.image-grid img {
+	width: 230px;
+	margin-top: 20px;
+	border-radius: 6px;
+}
+
+/* photo page */
+.image-container {
+	padding: 20px 0 0 183px;
+	display: grid;
+	grid-template-columns: 500px 360px;
+}
+
+.large-image {
+	width: 450px;
+	height: 450px;
+	background-size: cover;
+	border-radius: 6px;
+}
+
+.details .name {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.details .description {
+	line-height: 1.6;
+}
+
+.details .tag {
+	display: flex;
+	justify-content: center;
+    border-radius: 10px;
+    padding: 5px 0;
+    width: 131px;
+    background-color: #dbdbdb;
+	box-shadow: 0 4px 13px 3px #0000000f;
+}
+
+.details .copyBtn {
+    background-color: #dbdbdb;
+	box-shadow: 0 4px 13px 3px #0000000f;
+    border-radius: 10px;
+	border: none;
+	margin-top: 4px;
+	margin-left: 18px;
+}
+
+.tag-title {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 36px;
+}
+
+.tag-image-grid {
+	width: 35%;
+	column-count: 3;
+	column-gap: 250px;
+}
