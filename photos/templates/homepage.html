@@ -2,6 +2,8 @@
 
 {% block content %}
 <div class="image-grid">
-	
+	{% for photo in photos %}
+		<a href="{% url 'photos' photo_id=photo.id %}"><img src="{{ photo.image.url }}"></a>
+	{% endfor %}
 </div>
 {% endblock %}
