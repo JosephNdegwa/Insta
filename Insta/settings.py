@@ -22,7 +22,7 @@ from decouple import config,Csv
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
-MODE=config("MODE", default="prod")
+MODE=config("MODE", default="dev")
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
 
@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'Insta.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-if config('MODE')=="prod":
+if config('MODE')=="dev":
    DATABASES = {
        'default': {
            'ENGINE': 'django.db.backends.postgresql_psycopg2',
