@@ -6,7 +6,7 @@ A web application that helps an admin upload photos so that users can view and s
 Joseph Ndegwa
 
 ## Setup and installation
-Navigate to `https://insta9.herokuapp.com/` and serve on the web
+Navigate to `https://insta9.herokuapp.com/` and serve on the web.
 
 ## Technologies
 * Python
